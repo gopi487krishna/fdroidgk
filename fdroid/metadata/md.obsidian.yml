@@ -1,0 +1,13 @@
+AuthorName: gopi487krishna
+Categories:
+    - Writing
+CurrentVersion: 1.8.7
+CurrentVersionCode: 190
+Description: |
+    Latest version of Obsidian patched with revanced molten patch for self-signed certificates.
+IssueTracker: ""
+License: MIT
+Name: Obsidian Molten
+SourceCode: https://github.com/gopi487krishna/obsidian-apk-patch
+Summary: Patched version of obsidian apk with support for self signed certificates
+WebSite: ""

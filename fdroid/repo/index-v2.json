@@ -1,1 +1,112 @@
-{"repo": {"name": {"en-US": "FDroid Gk"}, "description": {"en-US": "FDroid repository for patched android apps.  "}, "icon": {"en-US": {"name": "/icons/icon.png", "sha256": "38697c726debd5f752587b44b57fe1df71c94bc989d0d47c04c011bfc64d7438", "size": 835}}, "address": "https://gopi487krishna.github.io/fdroidgk/fdroid/repo", "timestamp": 1740254447000}, "packages": {}}
+{
+  "repo": {
+    "name": {
+      "en-US": "FDroid Gk"
+    },
+    "description": {
+      "en-US": "FDroid repository for patched android apps.  "
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "38697c726debd5f752587b44b57fe1df71c94bc989d0d47c04c011bfc64d7438",
+        "size": 835
+      }
+    },
+    "address": "https://gopi487krishna.github.io/fdroidgk/fdroid/repo",
+    "timestamp": 1740254856000,
+    "categories": {
+      "Writing": {
+        "name": {
+          "en-US": "Writing"
+        }
+      }
+    }
+  },
+  "packages": {
+    "md.obsidian": {
+      "metadata": {
+        "added": 1740254852000,
+        "categories": [
+          "Writing"
+        ],
+        "lastUpdated": 1740254852000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
+        "authorName": "gopi487krishna",
+        "name": {
+          "en-US": "Obsidian Molten"
+        },
+        "summary": {
+          "en-US": "Patched version of obsidian apk with support for self signed certificates"
+        },
+        "description": {
+          "en-US": "Latest version of Obsidian patched with revanced molten patch for self-signed certificates.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/md.obsidian.190.png",
+            "sha256": "60c970e80f246dc53157595b481ba6d754d03ed1ff1c3b950fad099299c36348",
+            "size": 1577
+          }
+        },
+        "preferredSigner": "a764bd546c6e73613d4bf5349804aede947dc0b381d77cb2392f70c01232fda0"
+      },
+      "versions": {
+        "bb691161eb1515b59bea652af6e9938570ca0d5127889fbdbf939c0e1435aee4": {
+          "added": 1740254852000,
+          "file": {
+            "name": "/obsidian-molten_1.8.7.apk",
+            "sha256": "bb691161eb1515b59bea652af6e9938570ca0d5127889fbdbf939c0e1435aee4",
+            "size": 10308834
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.8.7",
+            "versionCode": 190,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "a764bd546c6e73613d4bf5349804aede947dc0b381d77cb2392f70c01232fda0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

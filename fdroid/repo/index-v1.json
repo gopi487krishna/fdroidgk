@@ -1,1 +1,96 @@
-{"repo": {"timestamp": 1740254447000, "version": 20002, "name": "FDroid Gk", "icon": "icon.png", "address": "https://gopi487krishna.github.io/fdroidgk/fdroid/repo", "description": "FDroid repository for patched android apps.  "}, "requests": {"install": [], "uninstall": []}, "apps": [], "packages": {}}
+{
+  "repo": {
+    "timestamp": 1740254856000,
+    "version": 20002,
+    "name": "FDroid Gk",
+    "icon": "icon.png",
+    "address": "https://gopi487krishna.github.io/fdroidgk/fdroid/repo",
+    "description": "FDroid repository for patched android apps.  "
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "gopi487krishna",
+      "categories": [
+        "Writing"
+      ],
+      "suggestedVersionName": "1.8.7",
+      "suggestedVersionCode": "190",
+      "description": "Latest version of Obsidian patched with revanced molten patch for self-signed certificates.\n",
+      "license": "MIT",
+      "name": "Obsidian Molten",
+      "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
+      "summary": "Patched version of obsidian apk with support for self signed certificates",
+      "added": 1740254852000,
+      "icon": "md.obsidian.190.png",
+      "packageName": "md.obsidian",
+      "lastUpdated": 1740254852000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "This is an automatically patched version of Obsidian using ReVanced Molten patch."
+        }
+      }
+    }
+  ],
+  "packages": {
+    "md.obsidian": [
+      {
+        "added": 1740254852000,
+        "apkName": "obsidian-molten_1.8.7.apk",
+        "hash": "bb691161eb1515b59bea652af6e9938570ca0d5127889fbdbf939c0e1435aee4",
+        "hashType": "sha256",
+        "minSdkVersion": 22,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "md.obsidian",
+        "sig": "cec4336c98ff75f3ba8ec4e3de8130f3",
+        "signer": "a764bd546c6e73613d4bf5349804aede947dc0b381d77cb2392f70c01232fda0",
+        "size": 10308834,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 190,
+        "versionName": "1.8.7"
+      }
+    ]
+  }
+}

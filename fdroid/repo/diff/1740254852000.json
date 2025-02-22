@@ -1,0 +1,34 @@
+{
+  "repo": {
+    "timestamp": 1740254856000,
+    "categories": {
+      "fdroid": null,
+      "Writing": {
+        "name": {
+          "en-US": "Writing"
+        }
+      }
+    }
+  },
+  "packages": {
+    "md.obsidian": {
+      "metadata": {
+        "categories": [
+          "Writing"
+        ],
+        "license": "MIT",
+        "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
+        "authorName": "gopi487krishna",
+        "name": {
+          "en-US": "Obsidian Molten"
+        },
+        "summary": {
+          "en-US": "Patched version of obsidian apk with support for self signed certificates"
+        },
+        "description": {
+          "en-US": "Latest version of Obsidian patched with revanced molten patch for self-signed certificates.\n"
+        }
+      }
+    }
+  }
+}
