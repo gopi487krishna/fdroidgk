@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1741144632000,
+    "timestamp": 1741231066000,
     "version": 20002,
     "name": "FDroid Gk",
     "icon": "icon.png",
@@ -17,17 +17,17 @@
       "categories": [
         "Writing"
       ],
-      "suggestedVersionName": "1.8.7",
-      "suggestedVersionCode": "190",
+      "suggestedVersionName": "1.8.9",
+      "suggestedVersionCode": "195",
       "description": "Latest version of Obsidian patched with revanced molten patch for self-signed certificates.\n",
       "license": "MIT",
       "name": "Obsidian Molten",
       "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
       "summary": "Patched version of obsidian apk with support for self signed certificates",
       "added": 1740254852000,
-      "icon": "md.obsidian.190.png",
+      "icon": "md.obsidian.195.png",
       "packageName": "md.obsidian",
-      "lastUpdated": 1740254852000,
+      "lastUpdated": 1741231063000,
       "localized": {
         "en-US": {
           "whatsNew": "This is an automatically patched version of Obsidian using ReVanced Molten patch."
@@ -37,6 +37,60 @@
   ],
   "packages": {
     "md.obsidian": [
+      {
+        "added": 1741231063000,
+        "apkName": "obsidian-molten_1.8.9.apk",
+        "hash": "20259691802293fb33a7872f760fc637f92906c037ce7af11fa1d96d8f9a878a",
+        "hashType": "sha256",
+        "minSdkVersion": 22,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "md.obsidian",
+        "sig": "b8e7c83083a39b28a54340ce3bc05230",
+        "signer": "3108f98b74d327589921319d33cd8c8ba10e62ac3550ab9736ccdb5ad628bf06",
+        "size": 10341718,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 195,
+        "versionName": "1.8.9"
+      },
       {
         "added": 1740254852000,
         "apkName": "obsidian-molten_1.8.7.apk",

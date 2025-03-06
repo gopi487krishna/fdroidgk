@@ -6,7 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for patched androi
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
-| <a href="https://github.com/gopi487krishna/obsidian-apk-patch"><img src="fdroid/repo/icons/md.obsidian.190.png" alt="Obsidian Molten icon" width="36px" height="36px"></a> | [**Obsidian Molten**](https://github.com/gopi487krishna/obsidian-apk-patch) | Patched version of obsidian apk with support for self signed certificates | 1.8.7 (190) |
+| <a href="https://github.com/gopi487krishna/obsidian-apk-patch"><img src="fdroid/repo/icons/md.obsidian.195.png" alt="Obsidian Molten icon" width="36px" height="36px"></a> | [**Obsidian Molten**](https://github.com/gopi487krishna/obsidian-apk-patch) | Patched version of obsidian apk with support for self signed certificates | 1.8.9 (195) |
 <!-- end apps table -->
 
 ### How to use

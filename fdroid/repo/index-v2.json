@@ -14,7 +14,7 @@
       }
     },
     "address": "https://gopi487krishna.github.io/fdroidgk/fdroid/repo",
-    "timestamp": 1741144632000,
+    "timestamp": 1741231066000,
     "categories": {
       "Writing": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Writing"
         ],
-        "lastUpdated": 1740254852000,
+        "lastUpdated": 1741231063000,
         "license": "MIT",
         "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
         "authorName": "gopi487krishna",
@@ -45,14 +45,67 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/md.obsidian.190.png",
+            "name": "/icons/md.obsidian.195.png",
             "sha256": "60c970e80f246dc53157595b481ba6d754d03ed1ff1c3b950fad099299c36348",
             "size": 1577
           }
         },
-        "preferredSigner": "a764bd546c6e73613d4bf5349804aede947dc0b381d77cb2392f70c01232fda0"
+        "preferredSigner": "3108f98b74d327589921319d33cd8c8ba10e62ac3550ab9736ccdb5ad628bf06"
       },
       "versions": {
+        "20259691802293fb33a7872f760fc637f92906c037ce7af11fa1d96d8f9a878a": {
+          "added": 1741231063000,
+          "file": {
+            "name": "/obsidian-molten_1.8.9.apk",
+            "sha256": "20259691802293fb33a7872f760fc637f92906c037ce7af11fa1d96d8f9a878a",
+            "size": 10341718
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.8.9",
+            "versionCode": 195,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "3108f98b74d327589921319d33cd8c8ba10e62ac3550ab9736ccdb5ad628bf06"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "bb691161eb1515b59bea652af6e9938570ca0d5127889fbdbf939c0e1435aee4": {
           "added": 1740254852000,
           "file": {
