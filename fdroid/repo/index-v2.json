@@ -14,7 +14,7 @@
       }
     },
     "address": "https://gopi487krishna.github.io/fdroidgk/fdroid/repo",
-    "timestamp": 1745292398000,
+    "timestamp": 1745378869000,
     "categories": {
       "Writing": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Writing"
         ],
-        "lastUpdated": 1741231063000,
+        "lastUpdated": 1745378864000,
         "license": "MIT",
         "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
         "authorName": "gopi487krishna",
@@ -45,7 +45,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/md.obsidian.195.png",
+            "name": "/icons/md.obsidian.197.png",
             "sha256": "60c970e80f246dc53157595b481ba6d754d03ed1ff1c3b950fad099299c36348",
             "size": 1577
           }
@@ -129,6 +129,59 @@
             "signer": {
               "sha256": [
                 "a764bd546c6e73613d4bf5349804aede947dc0b381d77cb2392f70c01232fda0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "0cd57dc89726d59bf1e0850d454ed35677a56490b67a68cb7c3588ac762d30d9": {
+          "added": 1745378864000,
+          "file": {
+            "name": "/obsidian-molten_1.8.10.apk",
+            "sha256": "0cd57dc89726d59bf1e0850d454ed35677a56490b67a68cb7c3588ac762d30d9",
+            "size": 10374772
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.8.10",
+            "versionCode": 197,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "e0a658807bad9114702a91c3a467255fe52fde1d1c0bf3b759a702b18dd1ecc3"
               ]
             },
             "usesPermission": [

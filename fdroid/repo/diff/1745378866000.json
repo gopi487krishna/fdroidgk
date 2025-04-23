@@ -1,0 +1,14 @@
+{
+  "repo": {
+    "timestamp": 1745378869000
+  },
+  "packages": {
+    "md.obsidian": {
+      "versions": {
+        "0cd57dc89726d59bf1e0850d454ed35677a56490b67a68cb7c3588ac762d30d9": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

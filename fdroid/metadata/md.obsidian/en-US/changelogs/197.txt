@@ -1,0 +1,1 @@
+This is an automatically patched version of Obsidian using ReVanced Molten patch.

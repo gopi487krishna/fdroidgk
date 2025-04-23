@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1745292398000,
+    "timestamp": 1745378869000,
     "version": 20002,
     "name": "FDroid Gk",
     "icon": "icon.png",
@@ -17,17 +17,17 @@
       "categories": [
         "Writing"
       ],
-      "suggestedVersionName": "1.8.9",
-      "suggestedVersionCode": "195",
+      "suggestedVersionName": "1.8.10",
+      "suggestedVersionCode": "197",
       "description": "Latest version of Obsidian patched with revanced molten patch for self-signed certificates.\n",
       "license": "MIT",
       "name": "Obsidian Molten",
       "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
       "summary": "Patched version of obsidian apk with support for self signed certificates",
       "added": 1740254852000,
-      "icon": "md.obsidian.195.png",
+      "icon": "md.obsidian.197.png",
       "packageName": "md.obsidian",
-      "lastUpdated": 1741231063000,
+      "lastUpdated": 1745378864000,
       "localized": {
         "en-US": {
           "whatsNew": "This is an automatically patched version of Obsidian using ReVanced Molten patch."
@@ -144,6 +144,60 @@
         ],
         "versionCode": 190,
         "versionName": "1.8.7"
+      },
+      {
+        "added": 1745378864000,
+        "apkName": "obsidian-molten_1.8.10.apk",
+        "hash": "0cd57dc89726d59bf1e0850d454ed35677a56490b67a68cb7c3588ac762d30d9",
+        "hashType": "sha256",
+        "minSdkVersion": 22,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "md.obsidian",
+        "sig": "2252bf1631ac17de8e1682cf51d9e82f",
+        "signer": "e0a658807bad9114702a91c3a467255fe52fde1d1c0bf3b759a702b18dd1ecc3",
+        "size": 10374772,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 197,
+        "versionName": "1.8.10"
       }
     ]
   }
