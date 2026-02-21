@@ -14,7 +14,7 @@
       }
     },
     "address": "https://gopi487krishna.github.io/fdroidgk/fdroid/repo",
-    "timestamp": 1767415364000,
+    "timestamp": 1771679304000,
     "categories": {
       "Writing": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Writing"
         ],
-        "lastUpdated": 1767403487000,
+        "lastUpdated": 1771679298000,
         "license": "MIT",
         "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
         "authorName": "gopi487krishna",
@@ -45,7 +45,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/md.obsidian.256.png",
+            "name": "/icons/md.obsidian.287.png",
             "sha256": "d95b25f263f60c19d1b1aafec10f7d128217ba86550269c5f2f29205958baf17",
             "size": 1571
           }
@@ -152,6 +152,77 @@
               },
               {
                 "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "9becbd21ad0cd43c22a099d835923974b5142c5381e107ede35cdb2513f51fbd": {
+          "added": 1771679298000,
+          "file": {
+            "name": "/obsidian-molten_1.11.7.apk",
+            "sha256": "9becbd21ad0cd43c22a099d835923974b5142c5381e107ede35cdb2513f51fbd",
+            "size": 16301935
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.11.7",
+            "versionCode": 287,
+            "usesSdk": {
+              "minSdkVersion": 22,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "c5647c5e34723f99d35965a706f271f9efa1c2d03386b075baf7a370957b95e5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
               },
               {
                 "name": "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"

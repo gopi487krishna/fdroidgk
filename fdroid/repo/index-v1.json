@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1767415364000,
+    "timestamp": 1771679304000,
     "version": 20002,
     "name": "FDroid Gk",
     "icon": "icon.png",
@@ -17,17 +17,17 @@
       "categories": [
         "Writing"
       ],
-      "suggestedVersionName": "1.10.6",
-      "suggestedVersionCode": "256",
+      "suggestedVersionName": "1.11.7",
+      "suggestedVersionCode": "287",
       "description": "Latest version of Obsidian patched with revanced molten patch for self-signed certificates.\n",
       "license": "MIT",
       "name": "Obsidian Molten",
       "sourceCode": "https://github.com/gopi487krishna/obsidian-apk-patch",
       "summary": "Patched version of obsidian apk with support for self signed certificates",
       "added": 1740254852000,
-      "icon": "md.obsidian.256.png",
+      "icon": "md.obsidian.287.png",
       "packageName": "md.obsidian",
-      "lastUpdated": 1767403487000,
+      "lastUpdated": 1771679298000,
       "localized": {
         "en-US": {
           "whatsNew": "This is an automatically patched version of Obsidian using ReVanced Molten patch."
@@ -144,6 +144,84 @@
         ],
         "versionCode": 190,
         "versionName": "1.8.7"
+      },
+      {
+        "added": 1771679298000,
+        "apkName": "obsidian-molten_1.11.7.apk",
+        "hash": "9becbd21ad0cd43c22a099d835923974b5142c5381e107ede35cdb2513f51fbd",
+        "hashType": "sha256",
+        "minSdkVersion": 22,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "md.obsidian",
+        "sig": "06e42ed517a2f12435ec650686af4239",
+        "signer": "c5647c5e34723f99d35965a706f271f9efa1c2d03386b075baf7a370957b95e5",
+        "size": 16301935,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "md.obsidian.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 287,
+        "versionName": "1.11.7"
       },
       {
         "added": 1745378864000,
