@@ -1,8 +1,8 @@
 AuthorName: gopi487krishna
 Categories:
     - Writing
-CurrentVersion: 1.11.7
-CurrentVersionCode: 287
+CurrentVersion: 1.12.4
+CurrentVersionCode: 299
 Description: |
     Latest version of Obsidian patched with revanced molten patch for self-signed certificates.
 IssueTracker: ""
